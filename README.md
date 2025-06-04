@@ -50,7 +50,7 @@ Extensão "Extension Pack for Java" (para VS Code): Instale-o através da aba de
 
 Clone ou Baixe o Repositório:
 
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/dudahcardoso/live-coding-JAVA)
 
 cd nome-do-repositorio
 
