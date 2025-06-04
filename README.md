@@ -61,6 +61,7 @@ Organize os Arquivos:
 Certifique-se de que seus arquivos .java (Produto.java, GerenciadorEstoque.java, SistemaEstoqueCLI.java) estejam dentro de uma pasta src na raiz do seu projeto.
 
 seu-projeto/
+
 ├── src/
 
 │   ├── Produto.java
@@ -95,8 +96,8 @@ O programa iniciará no terminal do VS Code (ou no seu terminal padrão), exibin
 
 O projeto é dividido em três classes principais:
 
-Produto.java: Define a estrutura de um produto, incluindo ID, nome, quantidade e preço. Contém getters e setters para acessar e modificar seus atributos.
+**Produto.java:** Define a estrutura de um produto, incluindo ID, nome, quantidade e preço. Contém getters e setters para acessar e modificar seus atributos.
 
-GerenciadorEstoque.java: Responsável por todas as operações de estoque. Utiliza um HashMap para armazenar os produtos, otimizando a busca por ID.
+**GerenciadorEstoque.java:** Responsável por todas as operações de estoque. Utiliza um HashMap para armazenar os produtos, otimizando a busca por ID.
 
-SistemaEstoqueCLI.java: A classe principal com o método main. Fornece a interface de linha de comando para o usuário interagir com o sistema, exibindo menus e processando as entradas.
+**SistemaEstoqueCLI.java:** A classe principal com o método main. Fornece a interface de linha de comando para o usuário interagir com o sistema, exibindo menus e processando as entradas.
