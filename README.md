@@ -25,22 +25,28 @@ O sistema oferece as seguintes operações CRUD (Create, Read, Update, Delete) p
 Este projeto foi projetado para ilustrar e reforçar os seguintes conceitos-chave de Algoritmos e Estruturas de Dados:
 
 **-Classes e Objetos:** Representação de entidades do mundo real (Produto) como objetos em Java.
+
 **-Encapsulamento:** Uso de modificadores de acesso (private) e métodos getters/setters para controlar o acesso aos dados.
+
 **-HashMap (Tabela Hash):** Utilizado para armazenar e gerenciar os produtos no GerenciadorEstoque. Este é um ponto crucial para demonstrar a eficiência de busca em O(1) (tempo constante, em média) em comparação com uma busca linear em listas.
+
 **-Busca:** Implementação de busca por ID, explorando a eficiência do HashMap.
+
 **-Validação de Dados:** Algoritmos simples para garantir a integridade dos dados (ex: quantidades não negativas).
+
 **-Manipulação de Coleções:** Adição, remoção e iteração sobre coleções de objetos.
+
 **-Estrutura de Menu/CLI:** Lógica para interagir com o usuário via linha de comando.
 
-🛠️ #Como Rodar o Projeto
+🛠️ **Como Rodar o Projeto**
 Para executar este projeto em sua máquina, siga os passos abaixo:
 
-#Pré-requisitos
+**Pré-requisitos**
 Java Development Kit (JDK): Versão 8 ou superior (recomenda-se JDK 17+).
 Visual Studio Code (VS Code): Ou qualquer outra IDE Java (IntelliJ IDEA, Eclipse).
 Extensão "Extension Pack for Java" (para VS Code): Instale-o através da aba de Extensões do VS Code.
 
-#Passos
+**Passos**
 Clone ou Baixe o Repositório:
 
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
