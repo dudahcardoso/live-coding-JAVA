@@ -2,29 +2,29 @@
 
 Este projeto é um sistema básico de gerenciamento de estoque desenvolvido em Java, ideal para demonstrar conceitos fundamentais de Algoritmos e Estruturas de Dados em um cenário prático e voltado para o mercado de trabalho. Ele permite adicionar, remover, buscar, listar e atualizar produtos em um "estoque" virtual através de uma interface de linha de comando (CLI).
 
-✨ #Funcionalidades
+✨ **Funcionalidades**
 
 O sistema oferece as seguintes operações CRUD (Create, Read, Update, Delete) para o gerenciamento de produtos:
 
-Adicionar Produto: Insere um novo produto com ID único, nome, quantidade e preço.
-Remover Produto: Exclui um produto do estoque pelo seu ID.
-Buscar Produto: Localiza e exibe os detalhes de um produto específico usando seu ID.
-Listar Produtos: Apresenta todos os produtos atualmente registrados no estoque.
-Atualizar Quantidade: Modifica a quantidade em estoque de um produto existente.
-Dar Entrada em Estoque: Aumenta a quantidade de um produto específico no estoque.
-Dar Saída de Estoque: Diminui a quantidade de um produto específico no estoque, com validação para evitar estoque negativo.
+**Adicionar Produto:** Insere um novo produto com ID único, nome, quantidade e preço.
+**Remover Produto:** Exclui um produto do estoque pelo seu ID.
+**Buscar Produto:** Localiza e exibe os detalhes de um produto específico usando seu ID.
+**Listar Produtos:** Apresenta todos os produtos atualmente registrados no estoque.
+**Atualizar Quantidade:** Modifica a quantidade em estoque de um produto existente.
+**Dar Entrada em Estoque:** Aumenta a quantidade de um produto específico no estoque.
+**Dar Saída de Estoque:** Diminui a quantidade de um produto específico no estoque, com validação para evitar estoque negativo.
 
-🚀 #Conceitos Abordados
+🚀 **Conceitos Abordados**
 
 Este projeto foi projetado para ilustrar e reforçar os seguintes conceitos-chave de Algoritmos e Estruturas de Dados:
 
-Classes e Objetos: Representação de entidades do mundo real (Produto) como objetos em Java.
-Encapsulamento: Uso de modificadores de acesso (private) e métodos getters/setters para controlar o acesso aos dados.
-HashMap (Tabela Hash): Utilizado para armazenar e gerenciar os produtos no GerenciadorEstoque. Este é um ponto crucial para demonstrar a eficiência de busca em O(1) (tempo constante, em média) em comparação com uma busca linear em listas.
-Busca: Implementação de busca por ID, explorando a eficiência do HashMap.
-Validação de Dados: Algoritmos simples para garantir a integridade dos dados (ex: quantidades não negativas).
-Manipulação de Coleções: Adição, remoção e iteração sobre coleções de objetos.
-Estrutura de Menu/CLI: Lógica para interagir com o usuário via linha de comando.
+**-Classes e Objetos:** Representação de entidades do mundo real (Produto) como objetos em Java.
+**-Encapsulamento:** Uso de modificadores de acesso (private) e métodos getters/setters para controlar o acesso aos dados.
+**-HashMap (Tabela Hash):** Utilizado para armazenar e gerenciar os produtos no GerenciadorEstoque. Este é um ponto crucial para demonstrar a eficiência de busca em O(1) (tempo constante, em média) em comparação com uma busca linear em listas.
+**-Busca:** Implementação de busca por ID, explorando a eficiência do HashMap.
+**-Validação de Dados:** Algoritmos simples para garantir a integridade dos dados (ex: quantidades não negativas).
+**-Manipulação de Coleções:** Adição, remoção e iteração sobre coleções de objetos.
+**-Estrutura de Menu/CLI:** Lógica para interagir com o usuário via linha de comando.
 
 🛠️ #Como Rodar o Projeto
 Para executar este projeto em sua máquina, siga os passos abaixo:
