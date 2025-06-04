@@ -7,11 +7,17 @@ Este projeto é um sistema básico de gerenciamento de estoque desenvolvido em J
 O sistema oferece as seguintes operações CRUD (Create, Read, Update, Delete) para o gerenciamento de produtos:
 
 **Adicionar Produto:** Insere um novo produto com ID único, nome, quantidade e preço.
+
 **Remover Produto:** Exclui um produto do estoque pelo seu ID.
+
 **Buscar Produto:** Localiza e exibe os detalhes de um produto específico usando seu ID.
+
 **Listar Produtos:** Apresenta todos os produtos atualmente registrados no estoque.
+
 **Atualizar Quantidade:** Modifica a quantidade em estoque de um produto existente.
+
 **Dar Entrada em Estoque:** Aumenta a quantidade de um produto específico no estoque.
+
 **Dar Saída de Estoque:** Diminui a quantidade de um produto específico no estoque, com validação para evitar estoque negativo.
 
 🚀 **Conceitos Abordados**
