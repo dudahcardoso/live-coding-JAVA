@@ -47,35 +47,48 @@ Visual Studio Code (VS Code): Ou qualquer outra IDE Java (IntelliJ IDEA, Eclipse
 Extensão "Extension Pack for Java" (para VS Code): Instale-o através da aba de Extensões do VS Code.
 
 **Passos**
+
 Clone ou Baixe o Repositório:
 
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
+
 cd nome-do-repositorio
+
 (Se você não tem um repositório, crie uma pasta e copie os arquivos para ela).
 
 Organize os Arquivos:
+
 Certifique-se de que seus arquivos .java (Produto.java, GerenciadorEstoque.java, SistemaEstoqueCLI.java) estejam dentro de uma pasta src na raiz do seu projeto.
 
 seu-projeto/
 ├── src/
+
 │   ├── Produto.java
+
 │   ├── GerenciadorEstoque.java
+
 │   └── SistemaEstoqueCLI.java
+
 └── ... outros arquivos do VS Code
 
 #Abra no VS Code:
+
 Abra a pasta raiz do seu projeto (seu-projeto) no Visual Studio Code (File > Open Folder...). O VS Code deve reconhecer automaticamente o projeto Java.
 
 #Execute o Programa:
 
 Abra o arquivo SistemaEstoqueCLI.java.
+
 Clique no botão "Run" (o triângulo verde) que aparece acima do método main.
 
 #Alternativamente, você pode usar a aba "Run and Debug" no VS Code ou executar via terminal:
 
 cd src
+
 javac *.java
+
 java SistemaEstoqueCLI
+
 O programa iniciará no terminal do VS Code (ou no seu terminal padrão), exibindo o menu de opções para gerenciar o estoque.
 
 🧑‍💻 #Estrutura do Código
@@ -83,5 +96,7 @@ O programa iniciará no terminal do VS Code (ou no seu terminal padrão), exibin
 O projeto é dividido em três classes principais:
 
 Produto.java: Define a estrutura de um produto, incluindo ID, nome, quantidade e preço. Contém getters e setters para acessar e modificar seus atributos.
+
 GerenciadorEstoque.java: Responsável por todas as operações de estoque. Utiliza um HashMap para armazenar os produtos, otimizando a busca por ID.
+
 SistemaEstoqueCLI.java: A classe principal com o método main. Fornece a interface de linha de comando para o usuário interagir com o sistema, exibindo menus e processando as entradas.
