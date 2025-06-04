@@ -1,5 +1,5 @@
-# live-coding-JAVA
-Sistema de Gerenciamento de Estoque Simplificado
+# Sistema de Gerenciamento de Estoque Simplificado
+
 Este projeto é um sistema básico de gerenciamento de estoque desenvolvido em Java, ideal para demonstrar conceitos fundamentais de Algoritmos e Estruturas de Dados em um cenário prático e voltado para o mercado de trabalho. Ele permite adicionar, remover, buscar, listar e atualizar produtos em um "estoque" virtual através de uma interface de linha de comando (CLI).
 
 ✨ Funcionalidades
