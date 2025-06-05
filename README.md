@@ -101,3 +101,5 @@ O projeto é dividido em três classes principais:
 **GerenciadorEstoque.java:** Responsável por todas as operações de estoque. Utiliza um HashMap para armazenar os produtos, otimizando a busca por ID.
 
 **SistemaEstoqueCLI.java:** A classe principal com o método main. Fornece a interface de linha de comando para o usuário interagir com o sistema, exibindo menus e processando as entradas.
+
+Link da aula: https://youtu.be/MEyXBLpG00M
